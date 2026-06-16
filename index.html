@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bride Bloom Jewelary</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Bride Bloom Jewelary</h1>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#products">Products</a>
+        <a href="#cart">Cart</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <img src="Photo.jpg" alt="Jewellery Banner" />
+      <h2>Elegant Jewellery for Every Moment</h2>
+      <p>Discover rings, necklaces, earrings and more.</p>
+      <button onclick="scrollToProducts()">Shop Now</button>
+    </section>
+
+    <section id="products">
+      <h2>Our Collection</h2>
+      <div class="product-container" id="productContainer"></div>
+    </section>
+
+    <section id="cart">
+      <h2>Your Cart</h2>
+      <div id="cartItems"></div>
+      <h3>Total: $<span id="totalPrice">0</span></h3>
+      <button onclick="checkout()">Checkout</button>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
