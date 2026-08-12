@@ -144,7 +144,13 @@ nav a:hover {
 #cart,
 #about,
 #contact {
-  padding: 40px 30px;
+padding: 40px 3g0px;
+}
+#about p {
+  max-width: 1550px;
+  margin: 0 auto;
+  line-height: 1.8;
+  font-size: 18px;
 }
 
 /* Contact Form */
