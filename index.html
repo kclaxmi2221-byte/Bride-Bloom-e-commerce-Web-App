@@ -35,8 +35,8 @@
       <h2>Featured Jewellery</h2>
       <div class="product-container">
         <div class="product-card">
-          <img src="assets/Ring picture.1.png" alt="Gold Ring" />
-          <h3>Gold Ring</h3>
+          <img src="assets/Ring.jpg" alt="Gold Ring" />
+          <h3>Ring</h3>
           <p>$50</p>
           <button>Add to Cart</button>
         </div>
@@ -66,6 +66,12 @@
       <div class="cart-box">
         <p>No items added yet.</p>
         <h3>Total: $0</h3>
+        <div id="checkout-form" style="display: none">
+          <input type="text" id="customerName" placeholder="Your Name" />
+          <input type="email" id="customerEmail" placeholder="Your Email" />
+          <button id="placeOrderBtn">Place Order</button>
+          <p id="orderStatus"></p>
+        </div>
       </div>
     </section>
     <!-- About Section -->
@@ -93,6 +99,4 @@
     <footer>
       <p>&copy; 2026 Jewellery. All Rights Reserved.</p>
     </footer>
-    <script src="script.js"></script>
-  </body>
-</html>
+    <script
